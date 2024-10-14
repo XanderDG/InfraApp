@@ -3,6 +3,7 @@ set -euo pipefail
 
 if [ ! -d "tempdir" ]; then
     mkdir tempdir
+fi
 mkdir tempdir/templates
 mkdir tempdir/static
 
